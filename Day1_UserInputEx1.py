@@ -1,0 +1,11 @@
+#Program to take input from the user 
+print("A sample program to understand user input method in python")
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Name: ", name)
+print("Age: ", age)
+print(type(name), type(age))
+age = int(age)
+print(type(age))
+age = float(age)
+print(type(age))
