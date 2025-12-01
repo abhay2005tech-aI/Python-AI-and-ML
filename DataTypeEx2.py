@@ -1,0 +1,5 @@
+age = input("Enter your age: ")
+print("Value Entered is: ", age)
+print("Type of age is: ", type(age))
+age = int(age)
+print("Type of age is: ", type(age))
